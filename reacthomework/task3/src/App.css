@@ -1,0 +1,334 @@
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.input-wrapper {
+  width: 100% !important;
+
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  height: 20vh;
+}
+
+.nav-list {
+  display: flex;
+
+  list-style: none;
+}
+
+.nav-list li {
+  width: 25%;
+
+  padding-top: 50px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+
+  width: 100%;
+  padding: 10px 0;
+  display: inline-block;
+
+  text-align: center;
+
+  background-color: yellow;
+  color: rgb(0, 170, 0);
+  font-weight: bold;
+}
+
+.nav-list li a:hover {
+  background-color: rgb(134, 134, 255);
+  color: #fff;
+}
+
+.nav-list li a.active {
+  background-color: blue !important;
+  color: #fff !important;
+}
+
+.main .home {
+  height: 80vh;
+}
+
+.main .home img {
+  width: 40%;
+}
+
+.client-part,
+.admin-part {
+  margin-bottom: 100px;
+}
+
+.search {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+
+.search input {
+  width: 40%;
+  padding: 10px;
+
+  border: 2px solid blue;
+  border-radius: 10px;
+
+  outline: none;
+}
+
+.search input::placeholder {
+  font-size: 18px;
+}
+
+.search button {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: blue;
+  color: #fff;
+  border: 2px solid rgb(0, 0, 82);
+  width: 100px;
+}
+
+.search button:hover {
+  background-color: rgb(134, 134, 255);
+  cursor: pointer;
+}
+
+.products-list {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-list li {
+  display: flex;
+
+  width: 50%;
+  justify-content: space-between;
+
+  border: 2px solid blue;
+}
+
+.products-list li:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.product-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  width: 50%;
+}
+
+.products-list img {
+  width: 200px;
+}
+
+.products-list h3 {
+  font-size: 24px;
+}
+
+.products-list .price {
+  font-size: 20px;
+}
+
+.change-product {
+  display: flex;
+}
+
+.change-product button {
+  margin: 5px 0 20px 5px;
+  width: 80px;
+  padding: 5px 0;
+
+  color: #fff;
+  cursor: pointer;
+}
+
+.change-product button:hover {
+  opacity: 0.5;
+}
+
+.change-product .edit-btn {
+  border: 2px solid rgb(0, 0, 82);
+  background-color: blue;
+}
+
+.change-product .delete-btn {
+  border: 2px solid rgb(82, 0, 0);
+  background-color: red;
+}
+
+.change-product button:first-child {
+  margin-right: 20px;
+}
+
+.product-des {
+  display: flex;
+}
+
+.admin-part .products-list li {
+  display: block;
+}
+
+.create-block-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.create-block h3 {
+  font-size: 24px;
+  padding: 20px 0;
+
+  text-align: center;
+}
+
+.create-block-wrapper div {
+  font-size: 18px;
+  width: 20%;
+
+  text-align: center;
+}
+
+.create-block button {
+  display: block;
+  margin: 50px auto;
+
+  width: 150px;
+  padding: 10px 0;
+
+  color: #fff;
+  cursor: pointer;
+
+  font-size: 20px;
+  background-color: orange;
+  border: 2px solid rgb(131, 85, 0);
+}
+
+.create-block button:hover {
+  transform: scale(1.1);
+}
+
+.create-block input {
+  height: 30px;
+}
+
+.client-part h3 {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 24px;
+}
+
+.profile h3 {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 24px;
+}
+
+.user {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user > div {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user > div span {
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+}
+
+.change-profile,
+.confirm-change {
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: orange;
+  color: rgb(122, 55, 0);
+  border: 1px solid rgb(122, 55, 0);
+  cursor: pointer;
+
+  margin-bottom: 50px;
+}
+
+.change-profile:hover,
+.confirm-change:hover {
+  transform: scale(1.1);
+}
+
+.profile input {
+  width: calc(100% - 24px);
+  padding: 5px 10px;
+
+  text-align: center;
+}
+
+.change-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.change-block > div {
+  width: 50%;
+}
+
+.change-block > div > div {
+    position: relative;
+}
+
+.change-block > div > div > div {
+    position: absolute;
+    top: 35px;
+}
+
+.valid {
+  color: green;
+
+  width: 200px;
+  text-align: center;
+}
+
+.invalid {
+  color: red;
+
+  width: 200px;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.nav-wrapper {
+  position: relative;
+}
+
+.auth {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.auth button {
+  width: 100px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  background-color: orange;
+  border: 2px solid rgb(122, 55, 0);
+}

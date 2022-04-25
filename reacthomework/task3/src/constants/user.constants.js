@@ -1,0 +1,1 @@
+export const CONFIRM_PROFILE = 'CONFIRM_PROFILE';

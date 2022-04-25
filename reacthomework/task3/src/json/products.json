@@ -1,0 +1,30 @@
+[
+  {
+    "id": "0346256",
+    "title": "Coca-Cola",
+    "img": "https://hotei.by/files/products/cola400x400.400x400.jpg?20549b60fe845606bf4c1291f255e6f2",
+    "price": "2 рубля",
+    "volume": "0.5л"
+  },
+  {
+    "id": "13426547",
+    "title": "Coca-Cola zero",
+    "img": "https://hotei.by/files/products/colazero400x400.400x400.jpg?626bdee10f2af9c80e0567cb0fb16173",
+    "price": "2 рубля",
+    "volume": "0.5л"
+  },
+  {
+    "id": "2568657536",
+    "title": "Fanta",
+    "img": "https://hotei.by/files/products/fanta400x400.400x400.jpg?43f0866e7cd16df6e5d1da65b133f248",
+    "price": "2 рубля",
+    "volume": "0.5л"
+  },
+  {
+    "id": "334542563567",
+    "title": "Sprite",
+    "img": "https://hotei.by/files/products/sprite400x400.400x400.jpg?f92d566139ca5c5bd1bd7c03a89a35b8",
+    "price": "2 рубля",
+    "volume": "0.5л"
+  }
+]

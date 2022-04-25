@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    justify-content: center;
+}
+
+body, .btns {
+    display: flex;
+    align-items: center;
+}
+
+.btns {
+    width: 50%;
+    height: 50%;
+    justify-content: space-evenly;
+}
+
+.btns button {
+    padding: 10px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    width: 150px;
+}
+
+.btns button:hover {
+    cursor: pointer;
+}
+
+.btns button:active {
+    opacity: 0.5;
+}
+
+.btn-1 {
+    background-color: #009;
+}
+.btn-2 {
+    background-color: #090;
+}
+.btn-3 {
+    background-color: #900;
+}
